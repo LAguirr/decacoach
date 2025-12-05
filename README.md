@@ -1,73 +1,49 @@
-# Welcome to your Lovable project
+# Posture Pro - Analyse et Correction Posturale
 
-## Project info
+Bienvenue sur le projet **Posture Pro**. Cette application web interactive aide les utilisateurs à analyser leur posture, identifier les zones à risque et obtenir des recommandations d'exercices personnalisées basées sur leur profil (niveau, sport, objectifs, blessures).
 
-**URL**: https://lovable.dev/projects/b87140a6-65c6-4237-8bfe-3b225eb384ad
+## 🚀 Instructions pour lancer le projet
 
-## How can I edit this code?
+Pour exécuter ce projet localement sur votre machine, suivez ces étapes :
 
-There are several ways of editing your application.
+### Prérequis
+Assurez-vous d'avoir **Node.js** et **npm** installés sur votre machine.
 
-**Use Lovable**
+### Installation et Lancement
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/b87140a6-65c6-4237-8bfe-3b225eb384ad) and start prompting.
+1.  **Cloner le dépôt** (si ce n'est pas déjà fait) :
+    ```bash
+    git clone <VOTRE_URL_GIT>
+    cd posture-pro-08
+    ```
 
-Changes made via Lovable will be committed automatically to this repo.
+2.  **Installer les dépendances** :
+    ```bash
+    npm install
+    ```
 
-**Use your preferred IDE**
+3.  **Lancer le serveur de développement** :
+    ```bash
+    npm run dev
+    ```
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+4.  **Accéder à l'application** :
+    Ouvrez votre navigateur et allez à l'adresse indiquée dans le terminal (généralement `http://localhost:8080` ou `http://localhost:5173`).
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 💡 Feedback sur l'implémentation
 
-Follow these steps:
+### Choix Techniques
+Le choix s'est porté sur une **application React** (avec Vite et TypeScript).
+*   **Pourquoi React ?** : React a été choisi pour sa robustesse, son écosystème riche et sa capacité à gérer efficacement l'état de l'application (comme les réponses au questionnaire et le profil utilisateur). Il permet une structure modulaire et réutilisable des composants.
+*   **Autres technologies** : Tailwind CSS pour le stylisme rapide et responsive, et Framer Motion / CSS natif pour les animations.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Difficultés Rencontrées
+Les principaux défis lors du développement ont été :
+1.  **Animations et Fluidité** : Créer une expérience utilisateur immersive avec des transitions douces (comme les "flip cards" et les apparitions au défilement) a demandé un travail minutieux sur les animations CSS et la gestion des délais. L'objectif était de rendre l'interface "vivante" sans compromettre la performance.
+2.  **Intégration Vidéo Dynamique** : Assurer que la bonne vidéo s'affiche en fonction du niveau de l'utilisateur (Débutant, Intermédiaire, Avancé) a nécessité une structuration précise des données et une logique conditionnelle dans les composants.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🌐 Lien vers l'application
 
-# Step 3: Install the necessary dependencies.
-npm i
+Vous pouvez accéder à la version déployée et fonctionnelle de l'application ici :
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/b87140a6-65c6-4237-8bfe-3b225eb384ad) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+👉 **[https://posture-pro-08-two.vercel.app/](https://posture-pro-08-two.vercel.app/)**

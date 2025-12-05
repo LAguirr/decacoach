@@ -63,6 +63,16 @@ const HeroSection = ({ onStartQuestionnaire }: HeroSectionProps) => {
           </div>
         </div>
       </div>
+      <div className="absolute bottom-4 right-4 z-20">
+        <a
+          href="https://village-neon-two.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-sm text-muted-foreground hover:text-primary transition-colors"
+        >
+          en forme pour la resistance
+        </a>
+      </div>
     </section>
   );
 };
