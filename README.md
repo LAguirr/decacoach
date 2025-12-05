@@ -1,6 +1,6 @@
-# Posture Pro - Analyse et Correction Posturale
+# Décacoach - Analyse et Correction Posturale
 
-Bienvenue sur le projet **Posture Pro**. Cette application web interactive aide les utilisateurs à analyser leur posture, identifier les zones à risque et obtenir des recommandations d'exercices personnalisées basées sur leur profil (niveau, sport, objectifs, blessures).
+Bienvenue sur le projet **Décacoach**. Cette application web interactive aide les utilisateurs à analyser leur posture, identifier les zones à risque et obtenir des recommandations d'exercices personnalisées basées sur leur profil (niveau, sport, objectifs, blessures).
 
 ## 🚀 Instructions pour lancer le projet
 
